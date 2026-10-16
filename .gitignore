@@ -1,0 +1,34 @@
+# ── 构建中间产物（可执行文件本身按需保留，见下）──
+.build/
+__pycache__/
+*.pyc
+
+# ── 运行期产生的配置与日志 ──
+config.json
+logs/
+_verify_out/
+
+# ── 转换过程中的临时文件 ──
+*.part
+*.tags.tmp
+
+# ── Flutter / Android ──
+android/.dart_tool/
+android/build/
+android/.flutter-plugins
+android/.flutter-plugins-dependencies
+android/.idea/
+android/*.iml
+android/android/.gradle/
+android/android/local.properties
+android/android/.idea/
+android/android/*.iml
+android/android/app/debug/
+android/android/app/profile/
+android/android/app/release/
+android/.packages
+
+# ── 系统垃圾 ──
+.DS_Store
+Thumbs.db
+desktop.ini
